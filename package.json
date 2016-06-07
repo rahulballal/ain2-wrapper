@@ -1,0 +1,23 @@
+{
+  "name": "ain2-wrapper",
+  "version": "1.0.0",
+  "description": "Super simple wrapper for the ain2 logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slooker/ain2-wrapper.git"
+  },
+  "keywords": [
+    "ain2",
+    "logger"
+  ],
+  "author": "Shawn Looker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slooker/ain2-wrapper/issues"
+  },
+  "homepage": "https://github.com/slooker/ain2-wrapper#readme"
+}
