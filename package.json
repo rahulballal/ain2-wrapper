@@ -14,10 +14,13 @@
     "ain2",
     "logger"
   ],
-  "author": "Shawn Looker",
+  "author": "Shawn Looker <shawn@linkmage.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/slooker/ain2-wrapper/issues"
   },
-  "homepage": "https://github.com/slooker/ain2-wrapper#readme"
+  "homepage": "https://github.com/slooker/ain2-wrapper#readme",
+  "dependencies": {
+    "ain2": "^2.0.0"
+  }
 }

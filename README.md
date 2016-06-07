@@ -25,3 +25,6 @@ This supports the same log levels as ain.  Severity level is referenced to [RFC3
 6  info     Informational: informational messages
 7  debug    Debug: debug-level messages
 ~~~~
+
+
+Note that OSX uses a non standard syslog, and this likely won't work in any mode other than "development" on a mac.

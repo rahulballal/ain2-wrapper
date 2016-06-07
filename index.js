@@ -1,5 +1,5 @@
 const SysLogger = require('ain2');
-const logger = new SysLogger({tag: config.appName, facility: 'syslog'});
+const logger = new SysLogger({tag: process.env.appName || 'Node App', facility: 'syslog'});
 
 // This is an INCREDIBLY basic wrapper.  When you require it, you need to do require('logger')();  Do not forget the extra parens.
 
