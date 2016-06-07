@@ -17,6 +17,9 @@ module.exports = function() {
 }
 
 function logMessage(level, message) {
+  if (typeof(message) === 'object') {
+    message = JSON.stringify(message);
+  }
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     // If in development mode, console.log it
     console.log(`${level.toUpperCase()} - ${message}`);
