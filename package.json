@@ -1,6 +1,6 @@
 {
   "name": "ain2-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super simple wrapper for the ain2 logger",
   "main": "index.js",
   "scripts": {
